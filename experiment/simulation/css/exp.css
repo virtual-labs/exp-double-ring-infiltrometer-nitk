@@ -1,0 +1,393 @@
+html
+{
+    -moz-user-select     : none;
+    -khtml-user-select   : none;
+    -webkit-user-select  : none;
+    -o-user-select       : none;
+    user-select          : none;
+}
+#simscreen
+{
+	position: relative;
+	left:0px;
+	top:0px;
+	height: 600px; 
+	width:800px;
+	border:solid 1px;
+	background-color:white;
+}
+
+#title{
+	position:relative;
+	left: 0px;
+	top: 0px;
+	height:40px;
+	font-size: 24px;
+	text-align:center;
+	background-color: black;
+	font-family: verdana;
+	color: White;
+	text-transform: uppercase; 
+}
+
+#title h3
+{
+	padding-top:2px;
+	margin:0px;
+}	
+
+.simsubscreen
+{
+	position:absolute;
+	left:50px;
+	top:50px;
+	height:530px;
+	width:745px;
+}
+
+.incanvas
+{
+	margin:5px 0 0 5px;
+	padding:0;
+}
+.landtype1 {
+	position: absolute;
+	top: 85px;
+	display: inline;
+}
+.landtype2 {
+	position: absolute;
+	top: 180px;
+	display: inline;
+}
+#nextButton
+{
+	position:absolute;
+	left:750px;
+	top:530px;
+	cursor:pointer;
+}
+.circlebg
+{
+	border-radius:100%;
+	font-size:25px;
+	color:#fff;
+	text-align:center;
+	background:#000
+}
+
+.steptext
+{
+	display:inline;
+	font-size:14px;
+}
+
+#copyright{
+	position: absolute;
+	left:60px;
+	top: 580px;
+	font-size:12px
+}
+.alertmsg
+{
+	color:red;
+	font-family:verdana;
+	font-size:12px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  font-family: verdana;
+	font-size:14px;
+}
+
+.tooltip .tooltiptext {
+	font-family: verdana;
+	font-size:14px;
+  visibility: hidden;
+  width: 500px;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 10px 10px 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 100;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* input[type="text"]:focus */
+/* { */
+	/* background-color: #f4f6f7 ; */
+/* } */
+.inputStyle{
+	border:none;
+	border-bottom: 1px solid;
+	width:55px;
+	font-family:verdana;
+	font-size:14px;
+	text-align:center;
+}
+.resultStyle{
+	border:none;
+	border-bottom-style:double;
+	width:55px;
+	font-family:verdana;
+	font-size:14px;
+	text-align:center;
+}
+#question-div{
+	position: absolute;
+	border:ridge 3px lightgrey;
+	background-color: lightgrey;
+	/* background-image: linear-gradient(grey, lightgrey, black); */
+	/* filter: alpha(opacity=55); */
+	color:black;
+	/* border-radius:15px; */
+	visibility:hidden;
+	padding:10px;
+}
+#alertId{
+	visibility:hidden;
+}
+#alertId1{
+	visibility:hidden;
+}
+#alertId2{
+	visibility:hidden;
+}
+#alertId3{
+	visibility:hidden;
+}
+@-webkit-keyframes moveinnerring
+{
+	from {left:565px; top:70px;}
+	to {left:240px; top:310px;}
+}
+@keyframes moveinnerring
+{
+	from {left:565px; top:70px;}
+	to {left:240px; top:310px;}
+}
+
+@-webkit-keyframes moveplate
+{
+	from {left:500px; top:80px;}
+	to {left:190px; top:225px;}
+}
+@keyframes moveplate
+{
+	from {left:500px; top:80px;}
+	to {left:190px; top:225px;}
+}
+
+@-webkit-keyframes hammerit
+{
+	0% {left:285px; top:190px;}
+	100% {left:270px; top:225px;}
+}
+@keyframes hammerit
+{
+	0% {left:285px; top:190px;}
+	100% {left:270px; top:225px;}
+}
+
+@-webkit-keyframes movedown1
+{
+	0% {left:240px; top:310px;}
+	100% {left:240px; top:335px;}
+}
+@keyframes movedown1
+{
+	0% {left:240px; top:310px;}
+	100% {left:240px; top:335px;}
+}
+
+@-webkit-keyframes movedown2
+{
+	0% {left:190px; top:260px;}
+	100% {left:190px; top:285px;}
+}
+@keyframes movedown2
+{
+	0% {left:190px; top:260px;}
+	100% {left:190px; top:285px;}
+}
+
+@-webkit-keyframes removeplate
+{
+	from {left:195px; top:245px;}
+	to {left:500px; top:100px;}
+}
+@keyframes removeplate
+{
+	from {left:195px; top:245px;}
+	to {left:500px; top:100px;}
+}
+
+@-webkit-keyframes moveouterring
+{
+	0% {left:580px; top:35px;}
+	60% {left: 210px; top: 150px;}
+	100% {left:210px; top:290px;}
+}
+@keyframes moveouterring
+{
+	0% {left:580px; top:35px;}
+	60% {left: 210px; top: 150px;}
+	100% {left:210px; top:290px;}
+}
+@-webkit-keyframes moveplate2
+{
+	from {left: 510px; top: 30px;}
+	to {left:170px; top:240px;}
+}
+
+@keyframes moveplate2
+{
+	from {left: 510px; top: 30px;}
+	to {left:170px; top:240px;}
+}
+@-webkit-keyframes hammerit2
+{
+	from {left:260px; top:210px;}
+	to {left:245px; top:250px;}
+}
+@keyframes hammerit2
+{
+	from {left:260px; top:210px;}
+	to {left:245px; top:250px;}
+}
+
+@-webkit-keyframes infiltrometerdown1
+{
+	0% {left:210px; top:310px;}
+	100% {left:210px; top:325px;}
+}
+@keyframes infiltrometerdown1
+{
+	0% {left:210px; top:310px;}
+	100% {left:210px; top:325px;}
+}
+
+@-webkit-keyframes infiltrometerdown2
+{
+	0% {left:175px; top:273px;}
+	100% {left:175px; top:290px;}
+}
+@keyframes infiltrometerdown2
+{
+	0% {left:175px; top:273px;}
+	100% {left:175px; top:290px;}
+}
+@-webkit-keyframes movestand
+{
+	0% {left:540px; top:50px;}
+	60% {left: 475px; top: 150px;}
+	100% {left: 475px; top:310px;}
+}
+@keyframes movestand
+{
+	0% {left:540px; top:50px;}
+	60% {left: 475px; top: 150px;}
+	100% {left: 475px; top:310px;}
+}
+@-webkit-keyframes movescalestand
+{
+	0% {left:485px; top:285px;}
+	60% {left: 235px; top: 140px;}  
+	100% {left: 235px; top:240px;}
+}
+@keyframes movescalestand
+{
+	0% {left:485px; top:285px;}
+	60% {left: 235px; top: 140px;}
+	100% {left: 235px; top:240px;}
+}
+@-webkit-keyframes movebucket
+{
+	from {left:595px; top:261px;}
+	to {left:320px; top:150px;}
+}
+ 
+@keyframes movebucket
+{
+	from {left:595px; top:261px;}
+	to {left:320px; top:150px;}
+}
+@-webkit-keyframes rotatebucket
+{
+	to {
+		transform: rotate(-20deg);
+	}
+}
+@keyframes rotatebucket
+{
+	to {
+		transform: rotate(-20deg);
+	}
+}
+@-webkit-keyframes fillwater
+{
+	0% {left:211px; top:390px;}
+	100% {left: 211px; top: 322px;}
+}
+@keyframes fillwater
+{
+	0% {left:211px; top:390px;}
+	100% {left: 211px; top: 322px;}
+}
+@-webkit-keyframes movehand
+{
+	from {left: 562px; top: 33px;}
+	to {left:562px; top:37px;}
+}
+ 
+@keyframes movehand
+{
+	from {left: 562px; top: 33px;}
+	to {left:562px; top:37px;}
+}
+.minute-hand {
+	bottom: 29px;
+	left: 30px;
+	transform-origin: bottom right;
+	transform-box: fill-box;
+}
+@-webkit-keyframes startticking
+{
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes startticking {
+	to {
+		transform: rotate(360deg);
+	}
+  }
+
+@-webkit-keyframes removewater
+{
+	0% {left: 211px; top: 322px;}
+	100% {left:211px; top:390px;}
+}
+@keyframes removewater
+{
+	0% {left: 211px; top: 322px;}
+	100% {left:211px; top:390px;}
+}
+
+td {
+	padding: 5px;
+}
+.values {
+	border: none;
+	height: 10px;
+	width: 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
