@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Infiltration rate is always?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "more than the infiltration capacity",
+        "b": "less than the infiltration capacity",
+        "c": "equal to or less than the infiltration capacity",
+        "d": "equal to or more than the infiltration capacity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the process by which water enters the small pore spaces between particles in soil or rocks",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Transpiration",
+        "b": "Infiltration",
+        "c": "Precipitation",
+        "d": "Sublimation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The infiltration capacity of a soil depends upon",
+      "answers": {
+        "a": "Number of voids present in the soil",
+        "b": "Shape and size of soil particles",
+        "c": "Arrangement of soil particles & compaction of the soil particles",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",     
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The infiltration of water into the subsurface is the ________ .",
+      "answers": {
+        "a": "Influent",
+        "b": "Effluent",
+        "c": "Discharge",
+        "d": "Recharge"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Infiltration Capacity",
+      "answers": {
+        "a": "Is a constant factor",
+        "b": "Changes with time",
+        "c": "Changes with location",
+        "d": "Changes with both time and location"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
