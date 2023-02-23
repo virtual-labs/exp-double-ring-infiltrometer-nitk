@@ -130,12 +130,16 @@ function magic() {
 		document.getElementById("grassland").onclick = function() {
 			land = "grassland";
 	        document.getElementById("nextButton").style.visibility="visible";
-			document.getElementById("1-0").setAttribute("src", "images/grassland1.png");
+			document.getElementById("1-0").setAttribute("src", "images/grassland2.png");
+			document.getElementById("1-0").style.height="225px";
+			document.getElementById("1-0").style.top="290px";
 		}
 		document.getElementById("barren").onclick = function() {
 			land = "barrenland";
 	        document.getElementById("nextButton").style.visibility="visible";
 			document.getElementById("1-0").setAttribute("src", "images/barrenground.png");
+			document.getElementById("1-0").style.height="110px";
+			document.getElementById("1-0").style.top="400px";
 		}
 	}
 	else if (simsubscreennum == 2) {
@@ -153,7 +157,7 @@ function magic() {
 			document.getElementById("1-1").style.animation="moveinnerring 2s forwards";
 			setTimeout(function() {
 			    document.getElementById("1-2").style.visibility="visible";
-				document.getElementById("1-2").style.transform="rotateX(-55deg)";
+				document.getElementById("1-2").style.transform="rotateX(-65deg)";
 			    myInt=setInterval(function(){animatearrow(); },600);
 			    document.getElementById("arrow1").style="visibility:visible; position:absolute; left:655px; top:100px; height:30px; z-index:10;";
 			    document.getElementById("arrow1").style.WebkitTransform="rotate(270deg)"
@@ -178,29 +182,32 @@ function magic() {
 								myStopFunction();
 								document.getElementById("1-4").onclick="";
 								document.getElementById("1-4").style.transform="rotate(-45deg)";
-								document.getElementById("1-4").style.animation = "hammerit 1s 5";
-								document.getElementById("1-1").style.animation = "movedown1 4s forwards";
-								document.getElementById("1-3").style.animation = "movedown2 4s forwards";
+								document.getElementById("1-4").style.animation = "movehammer 2.5s forwards";
 								setTimeout(function(){
-									document.getElementById("1-4").style.visibility="hidden";
-									myInt=setInterval(function(){animatearrow(); },500);
-									document.getElementById("arrow1").style="visibility:visible; position:absolute; left:200px; top:375px; height:30px; z-index:10;";
-									document.getElementById("arrow1").style.WebkitTransform="rotate(180deg)"
-									document.getElementById("arrow1").style.msTransform="rotate(180deg)"
-									document.getElementById("arrow1").style.transform="rotate(180deg)"
-									document.getElementById("1-3").onclick = function() {
-										myStopFunction();
-										document.getElementById("1-3").onclick="";
-										document.getElementById("1-3").style.animation = "removeplate 1s forwards";
-										setTimeout(function(){
-											document.getElementById("1-3").style.visibility="hidden";
-											setTimeout(function(){
-												var q1 = Object.create(questions);
-												generateQuestion1(q1,"For infiltration test the land should be: "," ","Sloping","Plain",2,screen2Proceed,250,150,250,150);
-											},500);
-										},1000)
-									}
-								},4000)
+								    document.getElementById("1-4").style.animation = "hammerit 1s 5";
+								    document.getElementById("1-1").style.animation = "movedown1 4s forwards";
+								    document.getElementById("1-3").style.animation = "movedown2 4s forwards";
+								    setTimeout(function(){
+										document.getElementById("1-4").style.visibility="hidden";
+										myInt=setInterval(function(){animatearrow(); },500);
+										document.getElementById("arrow1").style="visibility:visible; position:absolute; left:200px; top:375px; height:30px; z-index:10;";
+									    document.getElementById("arrow1").style.WebkitTransform="rotate(180deg)"
+									    document.getElementById("arrow1").style.msTransform="rotate(180deg)"
+									    document.getElementById("arrow1").style.transform="rotate(180deg)"
+									    document.getElementById("1-3").onclick = function() {
+										    myStopFunction();
+										    document.getElementById("1-3").onclick="";
+										    document.getElementById("1-3").style.animation = "removeplate 1s forwards";
+										    setTimeout(function(){
+											    document.getElementById("1-3").style.visibility="hidden";
+											    setTimeout(function(){
+												    var q1 = Object.create(questions);
+												    generateQuestion1(q1,"For infiltration test the land should be: "," ","Sloping","Plain",2,screen2Proceed,250,150,250,150);
+											    },500);
+										    },1750)
+									    }
+								    },4000)
+								},1750)
 							}
 						},750)
 					},1500)
@@ -252,26 +259,29 @@ function magic() {
 									myStopFunction();
 									document.getElementById("2-6").onclick="";
 									document.getElementById("2-6").style.transform="rotate(-55deg)";
-									document.getElementById("2-6").style.animation = "hammerit2 1s 5";
-									document.getElementById("2-3").style.animation = "infiltrometerdown1 4s forwards";
-									document.getElementById("2-5").style.animation = "infiltrometerdown2 4s forwards";
+									document.getElementById("2-6").style.animation = "movehammer2 2.5s forwards";
 									setTimeout(function(){
-										document.getElementById("2-6").style.visibility="hidden";
-										myInt=setInterval(function(){animatearrow(); },500);
-									    document.getElementById("arrow1").style="visibility:visible; position:absolute; left:170px; top:395px; height:30px; z-index:10;";
-									    document.getElementById("arrow1").style.WebkitTransform="rotate(180deg)"
-									    document.getElementById("arrow1").style.msTransform="rotate(180deg)"
-									    document.getElementById("arrow1").style.transform="rotate(180deg)"
-									    document.getElementById("2-5").onclick = function() {
-										    myStopFunction();
-										    document.getElementById("2-5").onclick="";
-										    document.getElementById("2-5").style.animation = "removeplate 1s forwards";
-										    setTimeout(function(){
-											    document.getElementById("2-5").style.visibility="hidden";
-											    document.getElementById("nextButton").style.visibility="visible";
-										    },750)
-									    }
-									},4000)
+										document.getElementById("2-6").style.animation = "hammerit2 1s 5";
+									    document.getElementById("2-3").style.animation = "infiltrometerdown1 4s forwards";
+									    document.getElementById("2-5").style.animation = "infiltrometerdown2 4s forwards";
+									    setTimeout(function(){
+										    document.getElementById("2-6").style.visibility="hidden";
+										    myInt=setInterval(function(){animatearrow(); },500);
+									        document.getElementById("arrow1").style="visibility:visible; position:absolute; left:170px; top:395px; height:30px; z-index:10;";
+									        document.getElementById("arrow1").style.WebkitTransform="rotate(180deg)"
+									        document.getElementById("arrow1").style.msTransform="rotate(180deg)"
+									        document.getElementById("arrow1").style.transform="rotate(180deg)"
+									        document.getElementById("2-5").onclick = function() {
+										        myStopFunction();
+										        document.getElementById("2-5").onclick="";
+										        document.getElementById("2-5").style.animation = "removeplate 1s forwards";
+										        setTimeout(function(){
+											        document.getElementById("2-5").style.visibility="hidden";
+											        document.getElementById("nextButton").style.visibility="visible";
+										        },1250)
+									        }
+									    },4000)
+									},1500)
 								}
 						    },750)
 				        },1500)
@@ -306,17 +316,19 @@ function magic() {
 			            document.getElementById("3-3").onclick=function() {
 			                myStopFunction();
 			                document.getElementById("3-3").onclick="";
-				            document.getElementById("3-3").style.animation = "movescalestand 2s linear forwards";
+							document.getElementById("3-3").style.visibility="hidden";
+							document.getElementById("3-5").style.visibility="visible";
+				            document.getElementById("3-5").style.animation = "movescalestand 2s linear forwards";
 							setTimeout(function(){
 								document.getElementById("2-3").style.visibility="hidden";
-								document.getElementById("3-3").style.visibility="hidden";
+								document.getElementById("3-5").style.visibility="hidden";
 								document.getElementById("3-4").style.visibility="visible";
 								setTimeout(function(){
 									document.getElementById("nextButton").style.visibility="visible";
 								},750)
 							},1700)
 						}
-					},1000)
+					},1500)
 				},2000)
 			}
 		},1000)
@@ -376,7 +388,7 @@ function magic() {
 						document.getElementById("5-3").style.visibility="visible";
 						document.getElementById("5-1").style.visibility="hidden";
 						document.getElementById("5-4").style.animation = "startticking 35s linear infinite";
-						document.getElementById("4-3").style.animation="removewater 30s forwards";
+						document.getElementById("4-3").style.animation="removewater 25s forwards";
 						setTimeout(function() {
 							document.getElementById("5-6").style.visibility="visible";
 							document.getElementById("dataTable1").style.visibility="visible";
@@ -417,7 +429,7 @@ function magic() {
 																		setTimeout(function(){
 																			document.getElementById("4-2").style.visibility="hidden";
 																			document.getElementById("4-4").style.visibility="hidden";
-																			document.getElementById("4-3").style.animation="removewater 30s forwards";
+																			document.getElementById("4-3").style.animation="removewater 25s forwards";
 																			setTimeout(function() {
 																				document.getElementById("g-9").style.visibility="visible";
 																				setTimeout(function() {
@@ -437,26 +449,26 @@ function magic() {
 																											setTimeout(function(){
 																												document.getElementById("nextButton").style.visibility="visible";
 																											},500)
-																										},2300)
-																									},2300)
-																								},2300)
-																							},2300)
-																						},2300)
-																					},2300)
-																				},2300)
-																			},2000)
-																		},1500)
+																										},2000)
+																									},2000)
+																								},2000)
+																							},2000)
+																						},2000)
+																					},2000)
+																				},2000)
+																			},1900)
+																		},1700)
 																	},1500)
-																},1200)
+																},900)
 															}
-														},1000)
-													},2300)
-												},2300)
-											},2300)
-										},2300)
-									},1500)
-								},1000)
-							},1000)
+														},800)
+													},2000)
+												},2000)
+											},2000)
+										},2000)
+									},1200)
+								},800)
+							},800)
 						},200)
 					},1500)
 				}
@@ -542,26 +554,26 @@ function magic() {
 																											setTimeout(function(){
 																												document.getElementById("nextButton").style.visibility="visible";
 																											},500)	
-																										},2300)
-																									},2300)
-																								},2300)
-																							},2300)
-																						},2300)
-																					},2300)
-																				},2300)
-																			},2000)
-																		},1500)
+																										},2000)
+																									},2000)
+																								},2000)
+																							},2000)
+																						},2000)
+																					},2000)
+																				},2000)
+																			},1900)
+																		},1700)
 																	},1500)
-																},1200)
+																},900)
 															}
-														},1000)
-													},2300)
-												},2300)
-											},2300)
-										},2300)
-									},1500)
-								},1000)
-							},1000)
+														},800)
+													},2000)
+												},2000)
+											},2000)
+										},2000)
+									},1200)
+								},800)
+							},800)
 						},200)
 					},1500)
 				}
@@ -594,10 +606,6 @@ function magic() {
 			document.getElementById("g-15").style.visibility="hidden";
 			document.getElementById("g-16").style.visibility="hidden";
 			document.getElementById("6-1").style.visibility="visible";
-			document.getElementById("iv").style.visibility="visible";
-			document.getElementById("itv").style.visibility="visible";
-			document.getElementById("iv1").style.visibility="visible";
-			document.getElementById("itv1").style.visibility="visible";
 			document.getElementById("btn1").style.visibility="visible";
 		}
 		else if (land == "barrenland") {
@@ -625,10 +633,6 @@ function magic() {
 			document.getElementById("b-15").style.visibility="hidden";
 			document.getElementById("b-16").style.visibility="hidden";
 			document.getElementById("6-2").style.visibility="visible";
-			document.getElementById("iv2").style.visibility="visible";
-			document.getElementById("itv2").style.visibility="visible";
-			document.getElementById("iv3").style.visibility="visible";
-			document.getElementById("itv3").style.visibility="visible";
 			document.getElementById("btn2").style.visibility="visible";
 		}
 	}
@@ -638,50 +642,82 @@ let arr1 = ["2.9", "2.9", "2.8", "5.7", "2.3", "8.0", "2.0", "10", "1.8", "11.8"
 function checkInput1() {
 	clkCount1++;
 	let inputs = [document.getElementById("gi-11"), document.getElementById("gi-12"), document.getElementById("gi-13"), document.getElementById("gi-14"), document.getElementById("gi-15"), document.getElementById("gi-16"), document.getElementById("gi-17"), document.getElementById("gi-18"), document.getElementById("gi-19"), document.getElementById("gi-20"), document.getElementById("gi-21"), document.getElementById("gi-22"), document.getElementById("gi-23"), document.getElementById("gi-24"), document.getElementById("gi-25"), document.getElementById("gi-26"), document.getElementById("gi-27"), document.getElementById("gi-28"), document.getElementById("gi-29"), document.getElementById("gi-30"), document.getElementById("gi-31"), document.getElementById("gi-32"), document.getElementById("gi-33"), document.getElementById("gi-34"), document.getElementById("gi-35"), document.getElementById("gi-36"), document.getElementById("gi-37"), document.getElementById("gi-38"), document.getElementById("gi-39"), document.getElementById("gi-40")];
+	let allInputsCorrect = true;
 	for (let i = 0; i < inputs.length; i++) {
 		if (inputs[i].value === arr1[i]) {
 		    inputs[i].style.color = "green";
 		} else {
+			allInputsCorrect = false;
 		    inputs[i].style.color = "red";
 		}
-		if (clkCount1 == 2) {
-            document.getElementById("resbtn1").style.visibility = "visible";
-        }
 		setTimeout(() => {
 			inputs[i].style.color = "black";
 		}, 3000);
 	}
+	if (clkCount1 == 2) {
+		document.getElementById("btn1").style.visibility="hidden";
+		document.getElementById("resbtn1").style.visibility = "visible";
+	}
+	if (allInputsCorrect) {
+        document.getElementById("iv").style.visibility = "visible";
+        document.getElementById("itv").style.visibility = "visible";
+        document.getElementById("iv1").style.visibility = "visible";
+        document.getElementById("itv1").style.visibility = "visible";
+        document.getElementById("btn1").style.visibility = "hidden";
+        document.getElementById("resbtn1").style.visibility = "hidden";
+    }
 }
 function getResult1() {
 	let inputs = [document.getElementById("gi-11"), document.getElementById("gi-12"), document.getElementById("gi-13"), document.getElementById("gi-14"), document.getElementById("gi-15"), document.getElementById("gi-16"), document.getElementById("gi-17"), document.getElementById("gi-18"), document.getElementById("gi-19"), document.getElementById("gi-20"), document.getElementById("gi-21"), document.getElementById("gi-22"), document.getElementById("gi-23"), document.getElementById("gi-24"), document.getElementById("gi-25"), document.getElementById("gi-26"), document.getElementById("gi-27"), document.getElementById("gi-28"), document.getElementById("gi-29"), document.getElementById("gi-30"), document.getElementById("gi-31"), document.getElementById("gi-32"), document.getElementById("gi-33"), document.getElementById("gi-34"), document.getElementById("gi-35"), document.getElementById("gi-36"), document.getElementById("gi-37"), document.getElementById("gi-38"), document.getElementById("gi-39"), document.getElementById("gi-40")];
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].value = arr1[i];
     }
+	document.getElementById("resbtn1").style.visibility = "hidden";
+	document.getElementById("iv").style.visibility="visible";
+	document.getElementById("itv").style.visibility="visible";
+	document.getElementById("iv1").style.visibility="visible";
+	document.getElementById("itv1").style.visibility="visible";
 }
 
 let arr2 = ["2.10", "2.10", "1.91", "4.01", "1.80", "5.81", "1.71", "7.52", "1.52", "9.04", "1.35", "10.39", "1.21", "11.6", "1.01", "12.61", "0.93", "13.54", "0.88", "14.42", "0.84", "15.26", "0.72", "15.98", "0.65", "16.63", "0.58", "17.21", "0.57", "17.78"];
 function checkInput2() {	
 	clkCount2++;
 	let inputs1 = [document.getElementById("bi-11"), document.getElementById("bi-12"), document.getElementById("bi-13"), document.getElementById("bi-14"), document.getElementById("bi-15"), document.getElementById("bi-16"), document.getElementById("bi-17"), document.getElementById("bi-18"), document.getElementById("bi-19"), document.getElementById("bi-20"), document.getElementById("bi-21"), document.getElementById("bi-22"), document.getElementById("bi-23"), document.getElementById("bi-24"), document.getElementById("bi-25"), document.getElementById("bi-26"), document.getElementById("bi-27"), document.getElementById("bi-28"), document.getElementById("bi-29"), document.getElementById("bi-30"), document.getElementById("bi-31"), document.getElementById("bi-32"), document.getElementById("bi-33"), document.getElementById("bi-34"), document.getElementById("bi-35"), document.getElementById("bi-36"), document.getElementById("bi-37"), document.getElementById("bi-38"), document.getElementById("bi-39"), document.getElementById("bi-40")];
-    for (let i = 0; i < inputs1.length; i++) {
+    let allInputs1Correct = true;
+	for (let i = 0; i < inputs1.length; i++) {
 		if (inputs1[i].value === arr2[i]) {
 		    inputs1[i].style.color = "green";
 		} else {
 		    inputs1[i].style.color = "red";
+			allInputs1Correct = false;
 		}
-		if (clkCount2 == 2) {
-            document.getElementById("resbtn2").style.visibility = "visible";
-        }
 		setTimeout(() => {
 			inputs1[i].style.color = "black";
-		}, 5000);
+		}, 3000);
 	}
+	if (clkCount2 == 2) {
+		document.getElementById("btn2").style.visibility="hidden";
+		document.getElementById("resbtn2").style.visibility = "visible";
+	}
+	if (allInputs1Correct) {
+        document.getElementById("iv2").style.visibility = "visible";
+        document.getElementById("itv2").style.visibility = "visible";
+        document.getElementById("iv3").style.visibility = "visible";
+        document.getElementById("itv3").style.visibility = "visible";
+        document.getElementById("btn2").style.visibility = "hidden";
+        document.getElementById("resbtn2").style.visibility = "hidden";
+    }
 }
 function getResult2() {
 	let inputs1 = [document.getElementById("bi-11"), document.getElementById("bi-12"), document.getElementById("bi-13"), document.getElementById("bi-14"), document.getElementById("bi-15"), document.getElementById("bi-16"), document.getElementById("bi-17"), document.getElementById("bi-18"), document.getElementById("bi-19"), document.getElementById("bi-20"), document.getElementById("bi-21"), document.getElementById("bi-22"), document.getElementById("bi-23"), document.getElementById("bi-24"), document.getElementById("bi-25"), document.getElementById("bi-26"), document.getElementById("bi-27"), document.getElementById("bi-28"), document.getElementById("bi-29"), document.getElementById("bi-30"), document.getElementById("bi-31"), document.getElementById("bi-32"), document.getElementById("bi-33"), document.getElementById("bi-34"), document.getElementById("bi-35"), document.getElementById("bi-36"), document.getElementById("bi-37"), document.getElementById("bi-38"), document.getElementById("bi-39"), document.getElementById("bi-40")];
     for (let i = 0; i < inputs1.length; i++) {
         inputs1[i].value = arr2[i];
     }
+	document.getElementById("resbtn2").style.visibility = "hidden";
+	document.getElementById("iv2").style.visibility="visible";
+	document.getElementById("itv2").style.visibility="visible";
+	document.getElementById("iv3").style.visibility="visible";
+	document.getElementById("itv3").style.visibility="visible";
 }
 
 function checkResult()
@@ -703,6 +739,7 @@ function checkResult()
 		ansId.classList.add("resultStyle");
 		ansId.style.color = "black";
 		ansId.innerHTML= 24.4 +"cm<span style='color:green'>&#10004;</span>";
+		document.getElementById("inf").style.visibility = "visible";
 	}
 	else
 	{
@@ -723,6 +760,7 @@ function checkResult()
 			ansId.classList.add("resultStyle");
 			ansId.style.color = "black";
 			ansId.innerHTML= 24.4+"cm";
+			document.getElementById("inf").style.visibility = "visible";
 		}
 	}
 }
@@ -797,6 +835,7 @@ function checkResult2()
 		ansId2.classList.add("resultStyle");
 		ansId2.style.color = "black";
 		ansId2.innerHTML= 17.78 +"cm<span style='color:green'>&#10004;</span>";
+		document.getElementById("inf").style.visibility = "visible";
 	}
 	else
 	{
@@ -817,6 +856,7 @@ function checkResult2()
 			ansId2.classList.add("resultStyle");
 			ansId2.style.color = "black";
 			ansId2.innerHTML= 17.78+"cm";
+			document.getElementById("inf").style.visibility = "visible";
 		}
 	}
 }

@@ -2,38 +2,99 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If the potential infiltration of a watershed having a soil with fair pasture cover, is 10cm and rainfall is 12cm, direct runoff is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "22 cm",
+        "b": "3 cm",
+        "c": "5 cm",
+        "d": "7 cm"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": ".As the temperature increases, the rate of infiltration also increases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Rate of infiltration determined by the infiltrometer is less than the one determined by rainfall simulator.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": ""
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " Which of the following is used in the laboratory measurement of infiltration?",
+      "answers": {
+        "a": "Infiltrometer",
+        "b": "Rainfall simulator",
+        "c": "Tensiometer",
+        "d": "Lysimeter"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be",
+      "answers": {
+        "a": "Equal to the rate of rainfall",
+        "b": "Equal to infiltration capacity",
+        "c": "More than the rate of rainfall",
+        "d": "More than infiltration capacity"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "According to Horton, the equation of the infiltration capacity curve, is (where letters carry their usual meanings)",
+      "answers": {
+        "a": " f = fc+(fo-fc) e-kt",
+        "b": "f = ft-(fo-fc) e-kt",
+        "c": " f = ft+(fo-fc) e-kt",
+        "d": "f =f+ (fo-fc) ekt"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
 }
+ 
