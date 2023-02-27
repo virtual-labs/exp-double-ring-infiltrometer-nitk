@@ -179,15 +179,18 @@ html
 #alertId3{
 	visibility:hidden;
 }
+#alerttxt{
+	visibility:hidden;
+}
 @-webkit-keyframes moveinnerring
 {
 	from {left:565px; top:70px;}
-	to {left:240px; top:310px;}
+	to {left:215px; top:275px;}
 }
 @keyframes moveinnerring
 {
 	from {left:565px; top:70px;}
-	to {left:240px; top:310px;}
+	to {left:215px; top:275px;}
 }
 
 @-webkit-keyframes moveplate
@@ -204,12 +207,12 @@ html
 @-webkit-keyframes movehammer
 {
 	from {left:540px; top:50px;}
-	to {left:250px; top:210px;}
+	to {left:260px; top:200px;}
 }
 @keyframes movehammer
 {
 	from {left:540px; top:50px;}
-	to {left:250px; top:210px;}
+	to {left:260px; top:200px;}
 }
 
 @-webkit-keyframes hammerit
