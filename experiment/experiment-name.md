@@ -1,1 +1,1 @@
-## Double ring infiltration test
+## Infiltration test using double-ring infiltrometer

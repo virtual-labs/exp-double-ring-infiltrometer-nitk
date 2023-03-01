@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Infiltration rate is always?",
+      "question": "Infiltration rate is always",
       "answers": {
         "a": "more than the infiltration capacity",
         "b": "less than the infiltration capacity",
@@ -10,30 +10,30 @@
         "d": "equal to or more than the infiltration capacity"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "infiltration rate is not more than the infiltration capacity.",
+        "b": "infiltration rate is not less than the infiltration capacity.",
+        "c": "infiltration rate is equal to or  less than the infiltration capacity. Infiltration capacity is the maximum rate at which the soil observes the water in a given period of time. Hence it is higher than the infiltration rate.",
+        "d": "infiltration rate is not equal to or more than  the infiltration capacity."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     },
     {
-      "question": "What is the process by which water enters the small pore spaces between particles in soil or rocks",
+      "question": "What is the process by which water moves between the small pore spaces between particles in soil or rocks",
       "answers": {
         "a": "Transpiration",
         "b": "Infiltration",
-        "c": "Precipitation",
+        "c": "percolation",
         "d": "Sublimation"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Transpiration is loss of water from plant leaves.",
+        "b": "The entry of water from the soil surface into ground is called infiltration.",
+        "c": "The further movement of water into subsurface soil is called percolation.",
+        "d": "The conversion of any substance directly from solid state to gaseous state is called sublimation."
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
       "question": "The infiltration capacity of a soil depends upon",
@@ -44,16 +44,16 @@
         "d": "All the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The infiltration capacity of a soil depends upon number of voids present in the soil.",
+        "b": "The infiltration capacity of a soil depends upon shape and size of soil particles.",
+        "c": "Arrangement of soil particles & compaction of the soil particles.",
+        "d": "The infiltration capacity of a soil depends upon  all the above mentioned factors."
       },
       "correctAnswer": "d",     
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "The infiltration of water into the subsurface is the ________ .",
+      "question": "The infiltration of water into the subsurface is the major reason for the ________ of groundwater.",
       "answers": {
         "a": "Influent",
         "b": "Effluent",
@@ -61,13 +61,13 @@
         "d": "Recharge"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Influent means sewage water entering the treatment plant.",
+        "b": "Effluent means treated water leaving  reservoir/river.",
+        "c": "Discharge is the volumetric flow rate of water that is transported through a given cross-sectional area.",
+        "d": "Recharge is the method by which water reaches groundwater.The infiltration of water from surface into subsurface soil results in groundwater recharge."
       },
       "correctAnswer": "d",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     },
     {
       "question": "Infiltration Capacity",
@@ -78,13 +78,13 @@
         "d": "Changes with both time and location"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Infiltration capacity is not a constant factor.",
+        "b": "Infiltration capacity changes with time.",
+        "c": "Infiltration capacity changes with location.",
+        "d": "Infiltration capacity changes with both time and location."
       },
       "correctAnswer": "d",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     }
   ]
 }
