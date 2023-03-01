@@ -55,7 +55,7 @@ These procedure steps will be followed on the simulator.
 
 14.  Click on plate to place it onto the water level indicator.
 
-    ![Alt text](images/14.png)
+   ![Alt text](images/14.png)
 
 15. Next click on the water level indicator to place it into the centre of the inner ring of the double ring infiltrometer.
 
