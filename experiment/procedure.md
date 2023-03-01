@@ -91,7 +91,7 @@ These procedure steps will be followed on the simulator.
 
 23.  With the help of observations and given equations calculate the infiltration rate and cumulative infiltration and insert the values into the table then click on the check button to verify results.
 
-    ![Alt text](images/23.png)
+   ![Alt text](images/23.png)
 
 24. Insert the average and accumulated infiltration depth values then click on check button. And verify results by clicking on results button.
 
