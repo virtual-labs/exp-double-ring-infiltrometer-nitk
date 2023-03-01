@@ -7,68 +7,51 @@ These procedure steps will be followed on the simulator.
 
 2. Click on the given field options to select one. And click on the arrow given at the bottom right corner to move to the next step.
 
-
-
-   ![Alt text](images/2.png)
+  ![Alt text](images/2.png)
 
 3. Click on the inner ring to place the ring onto the selected field.
 
-
-
-   ![Alt text](images/3.png)
+  ![Alt text](images/3.png)
 
 4. Next click on the driving plate to place it over the inner ring.
 
-
-
-   ![Alt text](images/4.png)
+  ![Alt text](images/4.png)
 
 5. Next click on the hand to hammer the inner ring using the driving plate.
 
-
-
-   ![Alt text](images/5.png)
+  ![Alt text](images/5.png)
 
 6. Now click on the driving plate to take off the driving plate from the top of the inner ring.
 
-
-
-   ![Alt text](images/6.png)
+  ![Alt text](images/6.png)
 
 7.  Answer the pop up question by selecting the correct option.
 
-
-   ![Alt text](images/7.png)
+  ![Alt text](images/7.png)
 
 8. Then click on the arrow button given at the bottom right corner to move to the next step.
 
-
-   ![Alt text](images/8.png)
+  ![Alt text](images/8.png)
 
 9.  Now click on the outer ring to place the outer ring of the infiltrometer.
 
-
-    ![Alt text](images/9.png)
+  ![Alt text](images/9.png)
 
 10. Next click on the driving plate to place it over the outer ring.
 
-
-    ![Alt text](images/10.JPG)
+  ![Alt text](images/10.JPG)
 
 11. Next click on the hand to hammer the outer ring using driving plate.
 
-
-    ![Alt text](images/11.png)
+  ![Alt text](images/11.png)
 
 12. Now click on the driving plate to take off the driving plate from top of the outer ring.
 
-
-    ![Alt text](images/12.png)
+  ![Alt text](images/12.png)
 
 13. Then click on the arrow button given at the bottom right corner to move to next step 3.
 
-
-    ![Alt text](images/13.png)
+  ![Alt text](images/13.png)
 
 14.  Click on plate to place it onto the water level indicator.
 
