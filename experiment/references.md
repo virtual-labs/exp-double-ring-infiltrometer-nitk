@@ -12,10 +12,10 @@
     Contributors :
     <ul style="list-style-type: none;">
     <li>Saisree Pasumarthi | NITK</li>
-    <li>Akshaya | NITK</li>
-    <li>Anusha B Salian | NITK</li>
-    <li>Sushamitha Wadde | NITK</li>
+    <li>Sushamita Vadde | NITK</li>
     <li>Nishali M Poojari | NITK</li>
+     <li>Akshaya | NITK</li>
+    <li>Anusha B Salian | NITK</li>
     </ul></td>
   </tr>
 </table>
