@@ -16,5 +16,5 @@
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Sushamitha Wadde | NITK |
+|  1   | Sushamita Vadde | NITK |
 |  2   | Nishali M Poojari | NITK |
