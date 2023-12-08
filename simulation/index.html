@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SOLVE</title>
+    <link rel="stylesheet" href="css/exp.css" />
+    <script type="text/javascript" src="js/exp.js"></script>
+    <script>
+        var simsubscreennum=0;
+        var temp=0;
+    </script>
+</head>
+<body style="margin:0; font-family:verdana;">
+    <div id="simscreen">
+        <div id="title"><h3>Infiltration test using double-ring infiltrometer</h3></div>
+        <div class="simsubscreen" id="canvas0">
+            <h4 class="incanvas">Objective:</h4>
+            <p class="incanvas" style="font-size:14px;">To find rate of infiltration or the rate at which water enters in soil.</p><br/>
+            <h4 class="incanvas">Apparatus used:</h4>
+            <p class="incanvas" style="font-size:14px;">Double ring infiltrometer (diameter of the inner ring is 30 cm & outer ring is 60 cm), Hammer, Water level indicator, Stopwatch etc.</p>
+            <img style="position:absolute; left:0px; top:170px;max-width:18%;width:100%;transform: rotateY(180deg)" src="images/man.png" />
+            <img style="position:absolute; left:230px; top:240px;" src="images/table.png" />
+            <img style="position: absolute; left: 500px; top:235px; height: 90px; width: 80px;" title="Double ring infiltrometer" src="images/infiltrometer.png"/>
+            <img style="position: absolute; left:595px; top:265px;  height: 65px;" title="driving plate" src="images/plte.png" />
+            <img style="position: absolute; left:430px; top:280px;  height: 90px;  transform: rotate(-90deg)" title="Hammer" src="images/hammer1.png" />
+            <img style="position: absolute; left: 300px; top: 240px; height: 85px; width: 15px;" title="Water level indicator" src="images/scale1.png" />
+            <img style="position: absolute; left: 340px; top: 260px;  height: 45px; width: 45px;" title="Stopwatch" src="images/stopwatch.png" />
+            <br>&nbsp;<span class="tooltip" style="border-bottom:1px dotted; color:red; font-weight: bold; text-align:justify">Description
+	            <span class="tooltiptext">
+		            <p><strong style="color:red">Infiltration rate</strong> is the rate at which the infiltrated water is observed by the soil.</p>
+	            </span>
+            </span> 
+        </div>
+        <div class="simsubscreen" id="canvas1" style="visibility: hidden;">
+            <div id="stepheading">
+                <strong class="incanvas">STEP</strong>
+                <span class="circlebg">&nbsp;1&nbsp;</span>
+                <p class="steptext">&nbsp;Select any one of the given field.</p>
+            </div>
+            <h1 id="fieldName" style="position:absolute; top:240px; left:200px;"></h1>
+            <div id="field">
+                <div class="landtype1">
+                    <input type="radio" id="grassland" value="grassLand" name="land" />
+                    <label for="grassland" id="land1">Grassland</label>
+                </div>
+                <img style="position: absolute; left: 165px; top: 50px; height: 80px; width: 80px;" src ="images/grassland.png" /><br />
+                <div class="landtype2">
+                    <input type="radio" id="barren" value="barrenGround" name="land" />
+                    <label for="barren" id="land2">Barren ground</label>
+                </div>
+                <img style="position: absolute; left: 165px; top: 150px; height: 80px; width: 80px;" src ="images/barrenground.png" />
+            </div>
+        </div>
+        <div class="simsubscreen" id="canvas2" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;1&nbsp;</span>
+            <p class="steptext">&nbsp;Place the inner ring and then hammer the inner ring of the double ring infiltrometer into the soil using a driving plate.</p>
+            <img id="1-0" style="position: absolute; left: 10px; width: 690px; visibility: hidden;" />
+            <img id="1-1" style="position: absolute; left: 240px; top: 310px; height: 110px; width: 85px; visibility: hidden;" src="images/innerring.png" />
+            <img id="1-2" style="position:absolute; left: 535px; top: 30px; height: 190px; width: 195px; visibility: hidden;" src="images/drivingplate.png" />
+            <img id="1-3" style="position:absolute; left: 190px; top: 260px; width: 180px; visibility: hidden;" src="images/plate1.png" />
+            <img id="1-4" style="position: absolute; left: 540px; top: 50px; height: 130px; width: 120px; visibility: hidden;" src="images/hammerhand.png" />
+            <img id="1-5" style="position: absolute; left: 545px; top: 55px; height: 150px; width: 115px;" src="images/inneringhand.png" />
+        </div>
+        <div class="simsubscreen" id="canvas3" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;2&nbsp;</span>
+            <p class="steptext">&nbsp;Place the outer ring of the double ring infiltrometer and then hammer the outer ring into the soil (Care should be taken cause minimum disturbance to the soil).</p>
+            <img id="2-1" style="position: absolute; left: 240px; top: 335px; height: 110px; width: 85px;" src="images/innerring.png" />
+            <img id="2-2" style="position:absolute; left: 580px; top: 35px; height: 160px; width: 140px; visibility: hidden;" src="images/outerring1.png" />
+            <img id="2-3" style="position:absolute; left: 210px; top: 310px; height: 155px; width: 140px; visibility: hidden;" src="images/doublering3.png" />
+            <img id="2-4" style="position:absolute; left: 510px; top: 30px; height: 190px; width: 225px; visibility: hidden;" src="images/drivingplate.png" />
+            <img id="2-5" style="position:absolute; left: 175px; top: 273px; width: 210px; visibility: hidden;" src="images/plate1.png" />
+            <img id="2-6" style="position: absolute; left: 570px; top: 50px; height: 100px; width: 120px; visibility: hidden;" src="images/hammerhand.png" />
+        </div>
+        <div class="simsubscreen" id="canvas4" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>  
+            <span class="circlebg">&nbsp;3&nbsp;</span>
+            <p class="steptext">&nbsp;Place the water level indicator inside the inner ring to note down the readings of water level.</p>
+            <img id="3-1" style="position:absolute; left: 520px; top: 275px; height: 175px; width: 20px;" src="images/scale1.png" />
+            <img id="3-2" style="position:absolute; left: 540px; top: 50px; height: 50px; width: 165px; visibility: hidden;" src="images/stand.png" />
+            <img id="3-3" style="position:absolute; left: 480px; top: 275px; height: 175px; width: 105px; visibility: hidden;" src="images/scalestand.png" />
+            <img id="3-4" style="position:absolute; left: 210px; top: 320px; height: 155px; width: 140px; visibility: hidden;" src="images/infiltrometer1.png" />
+            <img id="3-5" style="position:absolute; left: 480px; top: 275px; height: 175px; width: 100px; visibility: hidden;" src="images/scalewithhand.png" />
+        </div>
+        <div class="simsubscreen" id="canvas5" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;4&nbsp;</span>
+            <p class="steptext">&nbsp;Fill inner and outer rings with water and maintain equal water level in both rings.</p>
+            <img id="4-1" style="position: absolute; left: 595px; top: 254px; height: 150px; width: 110px; visibility: hidden;" src="images/bucket1.0.png" />
+            <img id="4-2" style="position: absolute; left: 270px; top: 245px; height: 160px; width: 135px; visibility: hidden;" src="images/pw.png" />
+            <img id="4-3" style="position: absolute; left: 211px; top: 322px; height: 58px; width: 137px; visibility: hidden;" src="images/fillwater1.png" />
+            <img id="4-4" style="position: absolute; left: 315px; top: 150px; height: 150px; width: 160px; visibility: hidden;" src="images/bucket2.png" />
+            <img id="4-5" style="position:absolute; left: 210px; top: 320px; height: 155px; width: 140px; visibility: hidden;" src="images/wateredring.png" />
+        </div>
+        <div class="simsubscreen" id="canvas6" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;5&nbsp;</span>
+            <p class="steptext">&nbsp;Start the stopwatch once the water is added equally into both the rings upto the mark. Note down the water level readings after smaller intervals of time.</p>
+            <img id="5-1" style="position: absolute; left: 562px; top: 33px; height: 150px; width: 165px; visibility: hidden;" src="images/hand.png"/>
+            <img id="5-2" style="position: absolute; left: 564px; top: 50px; height: 110px; width: 110px; visibility: hidden;" src="images/stopwatch1.png"/>
+            <img id="5-3" style="position: absolute; left: 564px; top: 50px; height: 110px; width: 110px; visibility: hidden;" src="images/stpwatch2.png"/>
+            <img id="5-4" class="minute-hand" style="position: absolute; left: 618px; top: 83px; height: 26px; width: 5px; visibility: hidden;" src="images/needle1.png"/>
+            <img id="5-5" style="position: absolute; left: 595px; top: 255px; height: 150px; width: 110px; visibility: hidden;" src="images/bucket1.0.png" />
+            <div id="5-6" style="position: absolute; left: 0px; top: 60px; height: 230px; width: 320px; overflow: auto; visibility: hidden;">
+                <table id="dataTable1" border size="1" style="position: absolute; font-size: 12px; text-align: center; visibility: hidden;">
+                    <tbody>
+                        <tr id="g-1" style="visibility: hidden;">
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Time change, △T(min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Initial Water level in the inner ring, H(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Amount of water added to bring to the original level(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Final Water level in the ring after adding water</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Height change △H (cm)</td>
+                        </tr>
+                        <tr id="g-2" style="visibility: hidden;">
+                            <td>1</td>
+                            <td>20.0</td>
+                            <td>-</td>
+                            <td>17.1</td>
+                            <td>2.9</td>
+                        </tr>
+                        <tr id="g-3" style="visibility: hidden;">
+                            <td>1</td>
+                            <td>17.1</td>
+                            <td>-</td>
+                            <td>14.3</td>
+                            <td>2.8</td>
+                        </tr>
+                        <tr id="g-4" style="visibility: hidden;">
+                            <td>2</td>
+                            <td>14.3</td>
+                            <td>-</td>
+                            <td>9.7</td>
+                            <td>4.6</td>
+                        </tr>
+                        <tr id="g-5" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>10.3</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        <tr id="g-6" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>9</td>
+                        </tr>
+                        <tr id="g-7" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>9</td>
+                            <td>11.5</td>
+                            <td>8.5</td>
+                        </tr>
+                        <tr id="g-8" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>11.5</td>
+                            <td>-</td>
+                            <td>3.6</td>
+                            <td>7.9</td>
+                        </tr>
+                        <tr id="g-9" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>16.4</td>
+                            <td>12.6</td>
+                            <td>7.4</td>
+                        </tr>
+                        <tr id="g-10" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>12.6</td>
+                            <td>-</td>
+                            <td>5.6</td>
+                            <td>7.0</td>
+                        </tr>
+                        <tr id="g-11" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>14.4</td>
+                            <td>13.3</td>
+                            <td>6.7</td>
+                        </tr>
+                        <tr id="g-12" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>13.3</td>
+                            <td>-</td>
+                            <td>7.2</td>
+                            <td>6.1</td>
+                        </tr>
+                        <tr id="g-13" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>7.2</td>
+                            <td>-</td>
+                            <td>1.7</td>
+                            <td>5.5</td>
+                        </tr>
+                        <tr id="g-14" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>18.3</td>
+                            <td>15</td>
+                            <td>5.0</td>
+                        </tr>
+                        <tr id="g-15" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>15</td>
+                            <td>-</td>
+                            <td>10.5</td>
+                            <td>4.5</td>
+                        </tr>
+                        <tr id="g-16" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>10.5</td>
+                            <td>-</td>
+                            <td>6.1</td>
+                            <td>4.4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="5-7" style="position: absolute; left: 0px; top: 60px; height: 230px; width: 320px; overflow: auto; visibility: hidden;">
+                <table id="dataTable2" border size="1" style="position: absolute; font-size: 12px; text-align: center; visibility: hidden;">
+                    <tbody>
+                        <tr id="b-1" style="visibility: hidden;">
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Time change, △T(min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Initial Water level in the inner ring, H(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Amount of water added to bring to the original level(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Final Water level in the ring after adding water</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 12px; padding: 5px;">Height change △H (cm)</td>
+                        </tr>
+                        <tr id="b-2" style="visibility: hidden;">
+                            <td>1</td>
+                            <td>20.0</td>
+                            <td>-</td>
+                            <td>17.9</td>
+                            <td>2.10</td>
+                        </tr>
+                        <tr id="b-3" style="visibility: hidden;">
+                            <td>1</td>
+                            <td>17.9</td>
+                            <td>-</td>
+                            <td>15.99</td>
+                            <td>1.91</td>
+                        </tr>
+                        <tr id="b-4" style="visibility: hidden;">
+                            <td>2</td>
+                            <td>15.99</td>
+                            <td>-</td>
+                            <td>12.39</td>
+                            <td>3.6</td>
+                        </tr>
+                        <tr id="b-5" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>12.39</td>
+                            <td>-</td>
+                            <td>3.84</td>
+                            <td>8.55</td>
+                        </tr>
+                        <tr id="b-6" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>16.16</td>                                
+                            <td>12.4</td>
+                            <td>7.60</td>
+                        </tr>
+                        <tr id="b-7" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>12.4</td>
+                            <td>-</td>
+                            <td>5.65</td>
+                            <td>6.75</td>
+                        </tr>
+                        <tr id="b-8" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>14.35</td>
+                            <td>13.95</td>
+                            <td>6.05</td>
+                        </tr>
+                        <tr id="b-9" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>13.95</td>
+                            <td>-</td>
+                            <td>8.90</td>
+                            <td>5.05</td>
+                        </tr>
+                        <tr id="b-10" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>8.90</td>
+                            <td>-</td>
+                            <td>4.25</td>
+                            <td>4.65</td>
+                        </tr>
+                        <tr id="b-11" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>20</td>
+                            <td>15.75</td>
+                            <td>15.60</td>
+                            <td>4.40</td>
+                        </tr>
+                        <tr id="b-12" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>15.60</td>
+                            <td>-</td>
+                            <td>11.40</td>
+                            <td>4.20</td>
+                        </tr>
+                        <tr id="b-13" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>11.40</td>
+                            <td>-</td>
+                            <td>7.8</td>
+                            <td>3.60</td> 
+                        </tr>
+                        <tr id="b-14" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>7.8</td>
+                            <td>-</td>
+                            <td>4.55</td>
+                            <td>3.25</td>
+                        </tr>
+                        <tr id="b-15" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>15.45</td>
+                            <td>-</td>
+                            <td>12.55</td>
+                            <td>2.90</td>
+                        </tr>
+                        <tr id="b-16" style="visibility: hidden;">
+                            <td>5</td>
+                            <td>12.55</td>
+                            <td>-</td>
+                            <td>9.7</td>
+                            <td>2.85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="simsubscreen" id="canvas7" style="visibility:hidden;">
+            <h2 style="position: absolute; left: 0px; top: -12px;">Observations:-</h2>
+            <div id="6-1" style="position: absolute; left: 0px; top: 50px; height: 355px; width: 660px; overflow-y: scroll; visibility: hidden;">
+                <table border size="1" style="position: absolute; font-size: 14px; text-align: center;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Time change, △T(min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Initial Water level in the inner ring, H(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Amount of water added to bring to the original level(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Final Water level in the ring after adding water</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Height change △H (cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Infiltration rate <br />△H/△T,I (cm/min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Cumulative infiltration amount (cm)</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>20.0</td>
+                            <td>-</td>
+                            <td>17.1</td>
+                            <td>2.9</td>
+                            <td><input type="text" class="values" id="gi-11"></input></td>
+                            <td><input type="text" class="values" id="gi-12"></input></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>17.1</td>
+                            <td>-</td>
+                            <td>14.3</td>
+                            <td>2.8</td>
+                            <td><input type="text" class="values" id="gi-13"></input></td>
+                            <td><input type="text" class="values" id="gi-14"></input></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>14.3</td>
+                            <td>-</td>
+                            <td>9.7</td>
+                            <td>4.6</td>
+                            <td><input type="text" class="values" id="gi-15"></input></td>
+                            <td><input type="text" class="values" id="gi-16"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>10.3</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td><input type="text" class="values" id="gi-17"></input></td>
+                            <td><input type="text" class="values" id="gi-18"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td><input type="text" class="values" id="gi-19"></input></td>                            
+                            <td><input type="text" class="values" id="gi-20"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>9</td>
+                            <td>11.5</td>
+                            <td>8.5</td>
+                            <td><input type="text" class="values" id="gi-21"></input></td>
+                            <td><input type="text" class="values" id="gi-22"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>11.5</td>
+                            <td>-</td>
+                            <td>3.6</td>
+                            <td>7.9</td>
+                            <td><input type="text" class="values" id="gi-23"></input></td>
+                            <td><input type="text" class="values" id="gi-24"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>16.4</td>
+                            <td>12.6</td>
+                            <td>7.4</td>
+                            <td><input type="text" class="values" id="gi-25"></input></td>
+                            <td><input type="text" class="values" id="gi-26"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12.6</td>
+                            <td>-</td>
+                            <td>5.6</td>
+                            <td>7.0</td>
+                            <td><input type="text" class="values" id="gi-27"></input></td>
+                            <td><input type="text" class="values" id="gi-28"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>14.4</td>
+                            <td>13.3</td>
+                            <td>6.7</td>
+                            <td><input type="text" class="values" id="gi-29"></input></td>
+                            <td><input type="text" class="values" id="gi-30"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>13.3</td>
+                            <td>-</td>
+                            <td>7.2</td>
+                            <td>6.1</td>
+                            <td><input type="text" class="values" id="gi-31"></input></td>
+                            <td><input type="text" class="values" id="gi-32"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>7.2</td>
+                            <td>-</td>
+                            <td>1.7</td>
+                            <td>5.5</td>
+                            <td><input type="text" class="values" id="gi-33"></input></td>
+                            <td><input type="text" class="values" id="gi-34"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>18.3</td>
+                            <td>15</td>
+                            <td>5.0</td>
+                            <td><input type="text" class="values" id="gi-35"></input></td>
+                            <td><input type="text" class="values" id="gi-36"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>15</td>
+                            <td>-</td>
+                            <td>10.5</td>
+                            <td>4.5</td>
+                            <td><input type="text" class="values" id="gi-37"></input></td>
+                            <td><input type="text" class="values" id="gi-38"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>10.5</td>
+                            <td>-</td>
+                            <td>6.1</td>
+                            <td>4.4</td>
+                            <td><input type="text" class="values" id="gi-39"></input></td>
+                            <td><input type="text" class="values" id="gi-40"></input></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="6-2" style="position: absolute; left: 0px; top: 50px; height: 355px; width: 660px; overflow-y: scroll; visibility: hidden;">
+                <table border size="1" style="position: absolute; font-size: 14px; text-align: center;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Time change, △T(min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Initial Water level in the inner ring, H(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Amount of water added to bring to the original level(cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Final Water level in the ring after adding water</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Height change △H (cm)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Infiltration rate △H/△T,I (cm/min)</td>
+                            <td style="text-align: center; font-family: verdana; font-size: 14px; padding: 5px;">Cumulative infiltration amount (cm)</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>20.0</td>
+                            <td>-</td>
+                            <td>17.9</td>
+                            <td>2.10</td>
+                            <td><input id="bi-11" type="text" class="values"></input></td>
+                            <td><input id="bi-12" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>17.9</td>
+                            <td>-</td>
+                            <td>15.99</td>
+                            <td>1.91</td>
+                            <td><input id="bi-13" type="text" class="values"></input></td>
+                            <td><input id="bi-14" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>15.99</td>
+                            <td>-</td>
+                            <td>12.39</td>
+                            <td>3.6</td>
+                            <td><input id="bi-15" type="text" class="values"></input></td>
+                            <td><input id="bi-16" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12.39</td>
+                            <td>-</td>
+                            <td>3.84</td>
+                            <td>8.55</td>
+                            <td><input id="bi-17" type="text" class="values"></input></td>
+                            <td><input id="bi-18" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>16.16</td>                                
+                            <td>12.4</td>
+                            <td>7.60</td>
+                            <td><input id="bi-19" type="text" class="values"></input></td>
+                            <td><input id="bi-20" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12.4</td>
+                            <td>-</td>
+                            <td>5.65</td>
+                            <td>6.75</td>
+                            <td><input id="bi-21" type="text" class="values"></input></td>
+                            <td><input id="bi-22" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>14.35</td>
+                            <td>13.95</td>
+                            <td>6.05</td>
+                            <td><input id="bi-23" type="text" class="values"></input></td>
+                            <td><input id="bi-24" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>13.95</td>
+                            <td>-</td>
+                            <td>8.90</td>
+                            <td>5.05</td>
+                            <td><input id="bi-25" type="text" class="values"></input></td>
+                            <td><input id="bi-26" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>8.90</td>
+                            <td>-</td>
+                            <td>4.25</td>
+                            <td>4.65</td>
+                            <td><input id="bi-27" type="text" class="values"></input></td>                                
+                            <td><input id="bi-28" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>15.75</td>
+                            <td>15.60</td>
+                            <td>4.40</td>
+                            <td><input id="bi-29" type="text" class="values"></input></td>
+                            <td><input id="bi-30" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>15.60</td>
+                            <td>-</td>
+                            <td>11.40</td>
+                            <td>4.20</td>
+                            <td><input id="bi-31" type="text" class="values"></input></td>
+                            <td><input id="bi-32" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>11.40</td>
+                            <td>-</td>
+                            <td>7.8</td>
+                            <td>3.60</td>                                
+                            <td><input id="bi-33" type="text" class="values"></input></td>
+                            <td><input id="bi-34" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>7.8</td>
+                            <td>-</td>
+                            <td>4.55</td>
+                            <td>3.25</td>
+                            <td><input id="bi-35" type="text" class="values"></input></td>
+                            <td><input id="bi-36" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>15.45</td>
+                            <td>-</td>
+                            <td>12.55</td>
+                            <td>2.90</td>
+                            <td><input id="bi-37" type="text" class="values"></input></td>
+                            <td><input id="bi-38" type="text" class="values"></input></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12.55</td>
+                            <td>-</td>
+                            <td>9.7</td>
+                            <td>2.85</td>
+                            <td><input id="bi-39" type="text" class="values"></input></td>
+                            <td><input id="bi-40" type="text" class="values"></input></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p id="iv" style="position:absolute; left:0px; top:445px; font-size: 16px; visibility:hidden;">Accumulated infiltration depth = <input id="res" type="text" style="border:none;border-bottom: 1px solid;width:55px;font-family:verdana;font-size:14px;text-align:center;" autocomplete="off" oninput="checkInputValid(this)"><span id="rightAns" class="resultStyle"></span><input id="chk" type="button" value="CHECK" style="cursor:pointer; margin-left: 5px;" onclick="checkResult();"><span id="alertId" class="alertmsg">Please Enter Value to proceed</span></p>
+            <p id="itv" style="position:absolute; left:190px; top:445px; visibility:hidden; border-bottom:double;"></p>
+            <p id="iv1" style="position:absolute; left:0px; top:410px; font-size: 16px; visibility:hidden;">Average infiltration depth = <input id="res1" type="text" style="border:none;border-bottom: 1px solid;width:55px;font-family:verdana;font-size:14px;text-align:center;" autocomplete="off" oninput="checkInputValid(this)"><span id="rightAns1" class="resultStyle"></span><input id="chk1" type="button" value="CHECK" style="cursor:pointer; margin-left: 5px;" onclick="checkResult1();"><span id="alertId1" class="alertmsg">Please Enter Value to proceed</span></p>
+            <p id="itv1" style="position:absolute; left:190px; top:410px; visibility:hidden; border-bottom:double;"></p>
+            <p id="iv2" style="position:absolute; left:0px; top:445px; font-size: 16px; visibility:hidden;">Accumulated infiltration depth = <input id="res2" type="text" style="border:none;border-bottom: 1px solid;width:55px;font-family:verdana;font-size:14px;text-align:center;" autocomplete="off" oninput="checkInputValid(this)"><span id="rightAns2" class="resultStyle"></span><input id="chk2" type="button" value="CHECK" style="cursor:pointer; margin-left: 5px;" onclick="checkResult2();"><span id="alertId2" class="alertmsg">Please Enter Value to proceed</span></p>
+            <p id="itv2" style="position:absolute; left:190px; top:445px; visibility:hidden; border-bottom:double;"></p>
+            <p id="iv3" style="position:absolute; left:0px; top:410px; font-size: 16px; visibility:hidden;">Average infiltration depth = <input id="res3" type="text" style="border:none;border-bottom: 1px solid;width:55px;font-family:verdana;font-size:14px;text-align:center;" autocomplete="off" oninput="checkInputValid(this)"><span id="rightAns3" class="resultStyle"></span><input id="chk3" type="button" value="CHECK" style="cursor:pointer; margin-left: 5px;" onclick="checkResult3();"><span id="alertId3" class="alertmsg">Please Enter Value to proceed</span></p>
+            <p id="itv3" style="position:absolute; left:190px; top:410px; visibility:hidden; border-bottom:double;"></p>
+            <button id="btn1" style="position: absolute; left: 485px; top: 415px; visibility: hidden;" onclick="checkInput1()">CHECK</button>
+            <button id="btn2" style="position: absolute; left: 485px; top: 415px; visibility: hidden;" onclick="checkInput2()">CHECK</button>
+            <button id="resbtn1" style="position: absolute; left: 485px; top: 415px; visibility:hidden;" onclick="getResult1()">RESULT</button>
+            <button id="resbtn2" style="position: absolute; left: 485px; top: 415px; visibility:hidden;" onclick="getResult2()">RESULT</button>
+            <span id="alerttxt" class="alertmsg" style="position:absolute; left:560px; top:415px;">Please Enter Value to proceed</span>
+            <span class="tooltip" id="inf" style="border-bottom:1px dotted; color:red; font-weight: bold; top: 430px; left: 370px; visibility: hidden;">Inference:
+	            <span class="tooltiptext1" style="font-weight: 100;">
+		            Vegetated grass land has a higher rate of infiltration than the barren land. Hence barren land generates excess surface runoff.
+	            </span>
+            </span> 
+        </div>
+        <!-- This is the questions division -->
+	        <span id="question-div" class = "fadeIn">
+		        <p id="divq" style="font-family:verdana; font-size: 14px;">Both ends of the pipe must be trimmed to ensure parallel faces.</p>
+		        <p id="ans"></p>
+	        </span>
+        <!-- nextButton -->
+        <div id="nav">
+            <img id="nextButton" onclick="navNext()" src="images/Next.png" />
+        </div>
+        <!--Blinking Arrow	-->	
+        <img class ="" id="arrow1" style="visibility:hidden;" src="images/arrow1.png"/>
+    
+        <div id="copyright"> &copy; 2020 - <script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+    </div>
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>

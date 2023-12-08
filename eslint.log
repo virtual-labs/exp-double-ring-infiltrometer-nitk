@@ -1,0 +1,247 @@
+
+/home/runner/work/exp-double-ring-infiltrometer-nitk/exp-double-ring-infiltrometer-nitk/experiment/simulation/js/exp.js
+   67:8   warning  'dispAns' is already defined                 no-redeclare
+   75:8   warning  'dispAns' is already defined                 no-redeclare
+   82:3   warning  'nextFunction' is not defined                no-undef
+   91:4   warning  'nextFunction' is not defined                no-undef
+   96:10  warning  'navNext' is defined but never used          no-unused-vars
+   98:6   warning  'temp' is not defined                        no-undef
+   98:13  warning  'temp' is not defined                        no-undef
+   98:21  warning  'temp' is not defined                        no-undef
+  100:36  warning  'temp' is not defined                        no-undef
+  102:2   warning  'simsubscreennum' is not defined             no-undef
+  103:35  warning  'simsubscreennum' is not defined             no-undef
+  120:19  warning  'myInt' is not defined                       no-undef
+  124:10  warning  'checkInputValid' is defined but never used  no-unused-vars
+  129:6   warning  'simsubscreennum' is not defined             no-undef
+  132:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  139:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  145:11  warning  'simsubscreennum' is not defined             no-undef
+  147:3   warning  'myInt' is not defined                       no-undef
+  155:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  164:6   warning  'myInt' is not defined                       no-undef
+  178:9   warning  'myInt' is not defined                       no-undef
+  195:12  warning  'myInt' is not defined                       no-undef
+  222:11  warning  'simsubscreennum' is not defined             no-undef
+  225:4   warning  'myInt' is not defined                       no-undef
+  226:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  227:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  228:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  229:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  230:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  231:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  232:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  233:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  234:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  235:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  236:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  238:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  239:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  240:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  241:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  243:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  243:13  warning  'myInt' is not defined                       no-undef
+  244:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  245:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  246:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  247:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  248:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  249:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  250:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  251:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  252:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  254:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  257:9   warning  'myInt' is not defined                       no-undef
+  270:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  271:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  272:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  273:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  274:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  274:15  warning  'myInt' is not defined                       no-undef
+  275:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  276:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  277:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  278:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  279:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  280:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  281:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  282:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  283:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  284:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  285:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  286:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  287:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  288:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  291:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  292:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  293:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  299:11  warning  'simsubscreennum' is not defined             no-undef
+  302:4   warning  'myInt' is not defined                       no-undef
+  308:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  309:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  316:7   warning  'myInt' is not defined                       no-undef
+  317:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  318:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  319:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  320:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  321:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  322:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  323:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  326:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  341:11  warning  'simsubscreennum' is not defined             no-undef
+  345:4   warning  'myInt' is not defined                       no-undef
+  363:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  372:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  376:11  warning  'simsubscreennum' is not defined             no-undef
+  379:5   warning  'myInt' is not defined                       no-undef
+  405:8   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  407:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  409:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  411:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  413:12  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  416:16  warning  'myInt' is not defined                       no-undef
+  484:5   warning  'myInt' is not defined                       no-undef
+  510:8   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  512:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  514:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  516:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  518:12  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  521:16  warning  'myInt' is not defined                       no-undef
+  588:11  warning  'simsubscreennum' is not defined             no-undef
+  647:10  warning  'checkInput1' is defined but never used      no-unused-vars
+  664:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  667:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  686:10  warning  'getResult1' is defined but never used       no-unused-vars
+  699:10  warning  'checkInput2' is defined but never used      no-unused-vars
+  716:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  718:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  738:10  warning  'getResult2' is defined but never used       no-unused-vars
+  750:10  warning  'checkResult' is defined but never used      no-unused-vars
+  799:10  warning  'checkResult1' is defined but never used     no-unused-vars
+  846:10  warning  'checkResult2' is defined but never used     no-unused-vars
+  895:10  warning  'checkResult3' is defined but never used     no-unused-vars
+
+/home/runner/work/exp-double-ring-infiltrometer-nitk/exp-double-ring-infiltrometer-nitk/experiment/simulation/js/main.js
+   67:8   warning  'dispAns' is already defined                 no-redeclare
+   75:8   warning  'dispAns' is already defined                 no-redeclare
+   82:3   warning  'nextFunction' is not defined                no-undef
+   91:4   warning  'nextFunction' is not defined                no-undef
+   96:10  warning  'navNext' is defined but never used          no-unused-vars
+   98:6   warning  'temp' is not defined                        no-undef
+   98:13  warning  'temp' is not defined                        no-undef
+   98:21  warning  'temp' is not defined                        no-undef
+  100:36  warning  'temp' is not defined                        no-undef
+  102:2   warning  'simsubscreennum' is not defined             no-undef
+  103:35  warning  'simsubscreennum' is not defined             no-undef
+  120:19  warning  'myInt' is not defined                       no-undef
+  124:10  warning  'checkInputValid' is defined but never used  no-unused-vars
+  129:6   warning  'simsubscreennum' is not defined             no-undef
+  132:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  139:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  145:11  warning  'simsubscreennum' is not defined             no-undef
+  147:3   warning  'myInt' is not defined                       no-undef
+  155:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  164:6   warning  'myInt' is not defined                       no-undef
+  178:9   warning  'myInt' is not defined                       no-undef
+  195:12  warning  'myInt' is not defined                       no-undef
+  222:11  warning  'simsubscreennum' is not defined             no-undef
+  225:4   warning  'myInt' is not defined                       no-undef
+  226:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  227:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  228:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  229:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  230:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  231:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  232:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  233:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  234:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  235:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  236:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  238:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  239:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  240:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  241:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  243:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  243:13  warning  'myInt' is not defined                       no-undef
+  244:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  245:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  246:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  247:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  248:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  249:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  250:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  251:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  252:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  254:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  257:9   warning  'myInt' is not defined                       no-undef
+  270:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  271:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  272:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  273:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  274:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  274:15  warning  'myInt' is not defined                       no-undef
+  275:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  276:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  277:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  278:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  279:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  280:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  281:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  282:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  283:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  284:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  285:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  286:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  287:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  288:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  291:6   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  292:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  293:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  299:11  warning  'simsubscreennum' is not defined             no-undef
+  302:4   warning  'myInt' is not defined                       no-undef
+  308:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  309:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  316:7   warning  'myInt' is not defined                       no-undef
+  317:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  318:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  319:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  320:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  321:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  322:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  323:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  326:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  341:11  warning  'simsubscreennum' is not defined             no-undef
+  345:4   warning  'myInt' is not defined                       no-undef
+  363:5   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  372:3   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  376:11  warning  'simsubscreennum' is not defined             no-undef
+  379:5   warning  'myInt' is not defined                       no-undef
+  405:8   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  407:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  409:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  411:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  413:12  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  416:16  warning  'myInt' is not defined                       no-undef
+  484:5   warning  'myInt' is not defined                       no-undef
+  510:8   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  512:9   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  514:10  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  516:11  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  518:12  warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  521:16  warning  'myInt' is not defined                       no-undef
+  588:11  warning  'simsubscreennum' is not defined             no-undef
+  647:10  warning  'checkInput1' is defined but never used      no-unused-vars
+  664:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  667:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  686:10  warning  'getResult1' is defined but never used       no-unused-vars
+  699:10  warning  'checkInput2' is defined but never used      no-unused-vars
+  716:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  718:2   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  738:10  warning  'getResult2' is defined but never used       no-unused-vars
+  750:10  warning  'checkResult' is defined but never used      no-unused-vars
+  799:10  warning  'checkResult1' is defined but never used     no-unused-vars
+  846:10  warning  'checkResult2' is defined but never used     no-unused-vars
+  895:10  warning  'checkResult3' is defined but never used     no-unused-vars
+
+✖ 240 problems (0 errors, 240 warnings)
+
