@@ -14,7 +14,6 @@
     <li>Saisree Pasumarthi | NITK</li>
     <li>Sushamita Vadde | NITK</li>
     <li>Nishali M Poojari | NITK</li>
-     <li>Akshaya | NITK</li>
     </ul></td>
   </tr>
 </table>
