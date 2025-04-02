@@ -11,5 +11,3 @@
 |  1   | Saisree Pasumarthi | NITK |
 |  2   | Sushamita Vadde | NITK |
 |  3   | Nishali M Poojari | NITK |
-|  4   | Akshaya | NITK |
-
