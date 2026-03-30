@@ -1,0 +1,83 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "As the temperature increases, the rate of infiltration also increases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "It is true, As the temperature increases, the rate of infiltration also increases.",
+        "b": "It is true, As the temperature increases, the rate of infiltration also increases."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Rate of infiltration determined by the infiltrometer is less than the one determined by rainfall simulator.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "The statement “ Rate of infiltration determined by the infiltrometer is less than the one determined by the rainfall simulator” is not true.",
+        "b": "The statement “ Rate of infiltration determined by the infiltrometer is less than the one determined by the rainfall simulator” is false."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": " Which of the following is used in the laboratory measurement of infiltration?",
+      "answers": {
+        "a": "Infiltrometer",
+        "b": "Rainfall simulator",
+        "c": "Tensiometer",
+        "d": "Lysimeter"
+      },
+      "explanations": {
+        "a": "Infiltrometer is an in-situ experiment.",
+        "b": "Rainfall simulator is conducted in a small plot under controlled conditions.",
+        "c": "Tensiometer  measures soil moisture.",
+        "d": "Lysimeter used to measure evapotranspiration."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be",
+      "answers": {
+        "a": "Equal to the rate of rainfall",
+        "b": "Equal to infiltration capacity",
+        "c": "More than the rate of rainfall",
+        "d": "More than infiltration capacity"
+      },
+      "explanations": {
+        "a": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be not be equal to the rate of rainfall.",
+        "b": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be equal to infiltration capacity. Because the infiltration capacity is the maximum rate at which water enters soil.",
+        "c": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be not more than the rate of rainfall.",
+        "d": "If the intensity of the rainfall is more than the infiltration capacity of the soil, then the infiltration rate will be not more than infiltration capacity . Because the infiltration capacity is the maximum rate at which water enters soil."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "According to Horton, the equation of the infiltration capacity curve, is (where letters carry their usual meanings)",
+      "answers": {
+        "a": " f = fc+(fo-fc) e-kt",
+        "b": "f = ft-(fo-fc) e-kt",
+        "c": " f = ft+(fo-fc) e-kt",
+        "d": "f =f+ (fo-fc) ekt"
+      },
+      "explanations": {
+        "a": "Option a equation is correct horton’s equation.",
+        "b": "Option a equation is not correct horton’s equation.",
+        "c": "Option a equation is not correct horton’s equation.",
+        "d": "Option a equation is not correct horton’s equation."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
+ 
