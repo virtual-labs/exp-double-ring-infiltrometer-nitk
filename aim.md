@@ -1,0 +1,1 @@
+To determine the rate of infiltration, i.e., the rate at which water enters the soil.
