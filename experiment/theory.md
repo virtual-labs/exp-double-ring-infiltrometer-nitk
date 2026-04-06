@@ -66,4 +66,10 @@ Where,
     k = Horton’s decay coefficient, representing the rate of decrease in infiltration capacity,</br>
     f<sub>c</sub> = final steady-state infiltration capacity,   </br>
     f<sub>o</sub> = initial infiltration capacity at t=0,</br>
-    t = time (often denoted as t<sub>c</sub> in specific contexts)
+    t = time (often denoted as t<sub>c</sub> in specific contexts)</br>
+
+##### Advantages
+- The presence of the outer ring ensures that infiltration from the inner ring occurs predominantly in the vertical direction, thereby improving measurement accuracy.
+- Minimizes lateral flow of water, leading to more reliable results.
+- Provides in-situ measurements, reflecting actual field conditions.
+- Simple and effective instrument for field use across a wide range of soil types (except clogging, stony soils, and steep slopes).
