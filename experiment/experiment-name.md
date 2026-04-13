@@ -1,1 +1,1 @@
-## Experiment name
+## Infiltration test using double-ring infiltrometer
